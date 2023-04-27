@@ -1,11 +1,12 @@
+import Blockquote from './components/Fragments/Blockquote/Blockquote'
+import Navbar from './components/Fragments/Navbar/Navbar'
 import './index.css'
 
 function App() {
   return (
     <>
-      <div>
-        <h1 className='text-3xl font-semibold'>Hello, world!</h1>
-      </div>
+      <Navbar />
+      <Blockquote />
     </>
   )
 }
