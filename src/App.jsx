@@ -1,12 +1,12 @@
-import Blockquote from './components/Fragments/Blockquote/Blockquote'
-import Navbar from './components/Fragments/Navbar/Navbar'
+import Introduce from './components/Fragments/Introduce/Introduce'
+import Jumbotron from './components/Layouts/Jumbotron'
 import './index.css'
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Blockquote />
+      <Jumbotron />
+      <Introduce />
     </>
   )
 }
