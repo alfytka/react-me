@@ -7,7 +7,7 @@ import reactLogo from '/images/react-logo.svg';
 const Introduce = () => {
   return (
     <div className="max-w-full bg-gradient-to-b from-transparent to-cyan-50">
-      <div className="max-w-5xl mx-auto pt-32 pb-24">
+      <div className="max-w-5xl mx-auto pt-32 pb-20">
         <div className="flex items-center gap-x-4 max-lg:px-5">
           <div className="bg-cyan-100/40 w-9 h-9 flex items-center justify-center rounded-md border border-cyan-200/30">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-cyan-600">
