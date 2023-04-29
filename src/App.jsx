@@ -1,5 +1,6 @@
-import Introduce from './components/Fragments/Introduce/Introduce'
+import Introduce from './components/Layouts/Introduce'
 import Jumbotron from './components/Layouts/Jumbotron'
+import Project from './components/Layouts/Project'
 import './index.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <>
       <Jumbotron />
       <Introduce />
+      <Project />
     </>
   )
 }
