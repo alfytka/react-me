@@ -3,6 +3,7 @@ import Jumbotron from './components/Layouts/Jumbotron'
 import Project from './components/Layouts/Project'
 import Experience from './components/Layouts/Experience'
 import './index.css'
+import NewExperience from './components/Layouts/NewExperience'
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <Jumbotron />
       <Introduce />
       <Project />
-      <Experience />
+      {/* <Experience /> */}
+      <NewExperience />
     </>
   )
 }
