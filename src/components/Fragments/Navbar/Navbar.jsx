@@ -12,9 +12,9 @@ const Navbar = (props) => {
               <rect width="24" height="32" fill="white" transform="matrix(0.428577 -0.903505 -0.903505 -0.428577 28.9122 36.3566)"/>
             </clipPath>
           </defs>
-          <g clip-path="url(#clip-path)">
-            <path d="M27.916 31.4568C20.0191 25.1909 13.7896 18.0721 10.031 8.49523M10.031 8.49523C12.5436 8.84916 15.2028 8.99688 17.7457 8.92371M10.031 8.49523C8.84116 12.6182 8.41809 15.8177 8.49744 20.0916" stroke="#06b6d4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-            <use xlink:href="#curve" stroke="#06b6d4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <g clipPath="url(#clip-path)">
+            <path d="M27.916 31.4568C20.0191 25.1909 13.7896 18.0721 10.031 8.49523M10.031 8.49523C12.5436 8.84916 15.2028 8.99688 17.7457 8.92371M10.031 8.49523C8.84116 12.6182 8.41809 15.8177 8.49744 20.0916" stroke="#06b6d4" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+            <use xlinkHref="#curve" stroke="#06b6d4" strokeWidth="0" strokeLinecap="round" strokeLinejoin="round" fill="none"/>
           </g>
         </svg>
         <span className="text-base text-cyan-500 font-medium tracking-tight -rotate-6 bg-cyan-50">my name, btw</span>
