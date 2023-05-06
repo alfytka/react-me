@@ -4,6 +4,7 @@ import Project from './components/Layouts/Project'
 import Experience from './components/Layouts/Experience'
 import './index.css'
 import NewExperience from './components/Layouts/NewExperience'
+import Contact from './components/Layouts/Contact'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Project />
       {/* <Experience /> */}
       <NewExperience />
+      <Contact />
     </>
   )
 }

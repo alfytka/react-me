@@ -24,7 +24,7 @@ const Project = () => {
             Proyek yang pernah saya kerjakan terutama selama saya bersekolah, entah itu tugas dari sekolah maupun inisiatif dari siswa sendiri dalam mengembangkan aplikasi sebagai bahan melatih kemampuan kita menjadi developer muda dimasa yang akan datang.
           </p>
         </div>
-        <div className="ml-5 sm:mx-5 mb-12 sm:ml-[4.5rem] lg:ml-[3.20rem] block lg:flex px-6 sm:px-10 py-9 text-cyan-800 border-l-[3px] sm:border-l-2 sm:border-t-2 border-blue-300 sm:border sm:rounded-2xl bg-gradient-to-br from-transparent via-blue-50 to-blue-100">
+        <div className="ml-5 sm:mx-5 mb-12 sm:ml-[4.5rem] lg:ml-[3.20rem] block lg:flex px-6 sm:px-10 py-9 text-cyan-800 border-l-[3px] sm:border-l-2 sm:border-t-2 border-blue-300 sm:border sm:rounded-2xl bg-gradient-to-br from-transparent via-blue-50 to-blue-100 overflow-hidden">
           <div className="md:pr-10">
             <h2 className="flex items-center gap-x-3 text-2xl font-figtree tracking-tight font-bold">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
@@ -52,7 +52,7 @@ const Project = () => {
             <img className="h-4 mt-4 ml-2" src={tailwindSvg} alt="tailwindLogo" />
           </p>
         </div>
-        <div className="ml-5 sm:mx-5 mb-12 sm:ml-[4.5rem] lg:ml-[3.20rem] block lg:flex px-6 sm:px-10 py-9 text-cyan-800 border-l-[3px] sm:border-l-2 sm:border-t-2 border-emerald-200 sm:border sm:rounded-2xl bg-gradient-to-br from-transparent via-emerald-50 to-emerald-100">
+        <div className="ml-5 sm:mx-5 mb-12 sm:ml-[4.5rem] lg:ml-[3.20rem] block lg:flex px-6 sm:px-10 py-9 text-cyan-800 border-l-[3px] sm:border-l-2 sm:border-t-2 border-emerald-200 sm:border sm:rounded-2xl bg-gradient-to-br from-transparent via-emerald-50 to-emerald-100 overflow-hidden">
           <div className="md:pr-10">
             <h2 className="flex items-center gap-x-2 text-2xl font-figtree tracking-tight font-bold">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
@@ -86,7 +86,7 @@ const Project = () => {
             </div>
           </div>
         </div>
-        <div className="ml-5 sm:mx-5 mb-12 sm:ml-[4.5rem] lg:ml-[3.20rem] block lg:flex px-6 sm:px-10 py-9 text-cyan-800 border-l-[3px] sm:border-l-2 sm:border-t-2 border-red-200 sm:border sm:rounded-2xl bg-gradient-to-br from-transparent to-red-50">
+        <div className="ml-5 sm:mx-5 mb-12 sm:ml-[4.5rem] lg:ml-[3.20rem] block lg:flex px-6 sm:px-10 py-9 text-cyan-800 border-l-[3px] sm:border-l-2 sm:border-t-2 border-red-200 sm:border sm:rounded-2xl bg-gradient-to-br from-transparent to-red-50 overflow-hidden">
           <div className="md:pr-10">
             <h2 className="flex items-center gap-x-3 text-2xl font-figtree tracking-tight font-bold">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-7 h-7">
