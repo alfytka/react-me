@@ -2,7 +2,7 @@ const Navbar = (props) => {
   const { hNavClass = 'text-lg sm:text-xl font-semibold font-figtree tracking-tight text-cyan-500' } = props;
   return (
     <div className="relative z-10 mt-12 sm:mt-[5.5rem] px-6 sm:px-8 py-5 max-w-5xl flex justify-between mx-auto bg-gradient-to-r from-cyan-50 to-transparent">
-      <h5 className={hNavClass}>Portfolio-me</h5>
+      <h5 className={hNavClass}>Portfolio</h5>
       <h5 className={hNavClass}>Alfitka Haerul Kurniawan</h5>
       <div className="max-sm:hidden absolute right-3 top-14 flex flex-col gap-y-2 items-center">
         <svg className="rotate-[210deg]" width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
