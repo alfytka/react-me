@@ -15,7 +15,7 @@ const Contact = () => {
           </svg>
         </div>
         <div className="relative flex flex-col space-y-10 pt-10 pb-20">
-          <h1 className="text-5xl font-bold font-figtree tracking-tight text-blue-700">
+          <h1 className="text-4xl sm:text-5xl font-bold font-figtree tracking-tight text-blue-700">
             Hello, world &#x1F30D;
           </h1>
           <h1 className="max-w-4xl p-5 lg:ml-12 text-3xl sm:text-4xl md:text-5xl font-medium font-figtree tracking-tight leading-8 sm:leading-[3.25rem] text-gray-800 bg-gray-200">
@@ -24,7 +24,7 @@ const Contact = () => {
           <h1 className="max-w-4xl p-5 md:ml-20 lg:ml-36 text-3xl sm:text-4xl md:text-5xl font-medium font-figtree tracking-tight leading-8 sm:leading-[3.25rem] text-gray-100 bg-emerald-500">
             Dari ketertarikan dan tekad belajar yang kuat <span className="text-3xl sm:text-4xl">&#9994;</span> menjadikan saya terus berkembang <span className="text-3xl sm:text-4xl">&#x1F556;</span> disetiap harinya.
           </h1>
-          <div className="flex max-sm:flex-col gap-6 sm:gap-10 pt-7 sm:pt-6 sm:pl-12 md:pl-20 lg:pl-[10.45rem]">
+          <div className="flex max-sm:flex-col gap-8 sm:gap-10 pt-7 sm:pt-6 sm:pl-12 md:pl-20 lg:pl-[10.45rem]">
             <img src={me} className="w-28 sm:w-32 rounded-full" alt="alfitka" />
             <div className="font-figtree tracking-tight text-gray-800">
               <h2 className="text-2xl font-semibold">Kenali akun saya</h2>

@@ -1,9 +1,15 @@
-const Navbar = (props) => {
-  const { hNavClass = 'text-lg sm:text-xl font-semibold font-figtree tracking-tight text-cyan-500' } = props;
+const Navbar = () => {
   return (
-    <div className="relative z-10 mt-12 sm:mt-[5.5rem] px-6 sm:px-8 py-5 max-w-5xl flex justify-between mx-auto bg-gradient-to-r from-cyan-50 to-transparent">
-      <h5 className={hNavClass}>Portfolio</h5>
-      <h5 className={hNavClass}>Alfitka Haerul Kurniawan</h5>
+    <div className="relative z-10 mt-12 sm:mt-[5.5rem] px-6 sm:px-8 py-5 max-w-5xl flex justify-between mx-auto bg-gradient-to-r from-cyan-50">
+      <h5 className="flex items-center gap-2 text-lg sm:text-xl font-semibold font-figtree tracking-tight text-cyan-500">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L6.832 19.82a4.5 4.5 0 01-1.897 1.13l-2.685.8.8-2.685a4.5 4.5 0 011.13-1.897L16.863 4.487zm0 0L19.5 7.125" />
+        </svg>
+        Portfolio
+      </h5>
+      <h5 className="max-sm:hidden text-lg sm:text-xl font-semibold font-figtree tracking-tight text-cyan-500">
+        Alfitka Haerul Kurniawan
+      </h5>
       <div className="max-sm:hidden absolute right-3 top-14 flex flex-col gap-y-2 items-center">
         <svg className="rotate-[210deg]" width="40" height="37" viewBox="0 0 40 37" fill="none" xmlns="http://www.w3.org/2000/svg">
           <defs>
